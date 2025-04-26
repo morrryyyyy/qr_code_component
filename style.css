@@ -5,16 +5,15 @@
   --grayish-blue: hsl(216, 15%, 48%);
   --dark-blue: hsl(218, 44%, 22%);
 }
-* {
-  /* box-sizing: border-box; */
-}
+
 body {
   background-color: var(--light-gray);
   font-family: "Outfit", sans-serif;
   font-weight: 400; /* Default font weight */
   display: flex;
+  min-height: 100vh;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   text-align: center;
 }
